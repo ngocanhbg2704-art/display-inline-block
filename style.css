@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+section {
+    margin-top: 20px;
+    font-size: 0; /* Xua tan khoang trang giua cac phan tu inline-block */
+}
+
+.box {
+    display: inline-block;
+    width: 28%;
+    padding: 20px;
+    background-color: lightblue;
+    margin: 1%;
+    font-size: 16px; /* Reset lai font-size cho noi dung ben trong */
+    vertical-align: top;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
